@@ -14,13 +14,25 @@
     <title>Document</title>
 </head>
 <body>
-    <?php foreach($logos as $key => $src): ?>
-        <div style="display: inline-block; vertical-align: top">
-            <div>
-                <h2><?= $key ?></h2>
-                <img src=<?= $src ?> alt="" width="300px" height="auto">
+    <head>
+        <h1>Title</h1>
+    </head>
+
+    <main>
+        <?php foreach($logos as $key => $src): ?>
+            <div style="display: inline-block; vertical-align: top">
+                <div>
+                    <h2><?= $key ?></h2>
+                    <img src=<?= $src ?> alt="" width="300px" height="auto">
+                </div>
             </div>
-        </div>
-    <?php endforeach ?>
+        <?php endforeach ?>
+    </main>
+
+
+    <footer>
+            <hr>
+            owari
+    </footer>
 </body>
 </html>
